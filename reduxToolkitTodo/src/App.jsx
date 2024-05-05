@@ -1,7 +1,12 @@
+import Todo from './Components/Todo'
+
 function App() {
   return (
-    <section className='bg-slate-900 min-w-screen min-h-screen	'>
-      <h2 className='text-white'>ReduxToolkit-Todo</h2>
+    <section className=''>
+      <h2 className='  text-5xl min-w-screen flex justify-center  h-20'>
+        ReduxToolkit-Todo
+      </h2>
+      <Todo />
     </section>
   )
 }
