@@ -1,0 +1,40 @@
+nav {
+  height: 4rem;
+  width: 100%;
+  border: red solid 2px;
+  align-content: center;
+  background: rgb(0, 9, 128);
+  .nav-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h3 {
+      font-size: 2rem;
+      text-transform: capitalize;
+      color: white;
+    }
+    .nav-container {
+      border: green solid 2px;
+      display: flex;
+      width: 50px;
+      height: 40px;
+      color: white;
+      .amount-container {
+        color: red;
+        .total-amount {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: aliceblue;
+          width: 30px;
+          height: 30px;
+          // padding: 1px;
+          border-radius: 50%;
+          margin-left: -15px;
+          margin-top: -8px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
